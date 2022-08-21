@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.zone{
+    color:#FFF;
+    font-size:1.40em;
+    border:1px solid #bbb;
+    border-radius:4px;
+}
+
+.zone:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.green{
+    background-color: #56B870;
+}
+
+.darkblue{
+    background-color: #583bda;;
+}
+
+.blue{
+    background: #7abcff;
+}
+
+/* NavBar*/
+.main-nav{
+    display: flex;
+    list-style: none;
+   
+}
+.hold{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .main-nav{
+        padding: 0;
+        font-size: 1.18em
+    }
+}
+.main-nav li{
+    padding: 20px;
+}
+.push{
+   margin-left: auto;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: #fff;
+}
+/*End Navbar*/
+
+/* Header*/
+.container{
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img{
+    width: 30rem;
+}
+/* End Header*/
+
+/*Grid*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-gap: 20px;
+}
+
+.box img{
+    width: 100%;
+   
+}
+
+.box{
+    background: #444;
+    padding: 130px;
+    margin: 20px;
+    transition: all 1s;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+/*End Grid Zone*/
+.yellow {
+    background: #F3AAAA; /* Old browsers */
+    text-align: center;
+}
